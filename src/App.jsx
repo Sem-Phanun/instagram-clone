@@ -7,13 +7,13 @@ import Profile from './pages/profile/Profile'
 const App = () => {
   return (
     <>
-      <PageLayout>
+      {/* <PageLayout> */}
         <Routes>
           <Route path="/" element={<Home/>}/>
           <Route path="/auth" element={<Auth/>}/>
           <Route path="/:username" element={<Profile/>}/>
         </Routes>
-      </PageLayout>
+      {/* </PageLayout> */}
     </>
   )
 }
